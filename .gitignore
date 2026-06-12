@@ -6,3 +6,4 @@ node_modules/
 !tsconfig.json
 !firebase.json
 !manifest.json
+.vercel

@@ -1,7 +1,9 @@
+// This file is used by the Vite dev server.
+// For production builds, vite.config.js generates this file with env vars injected.
+// For local dev, update these values or rely on the .env file + npm run build.
 importScripts('https://www.gstatic.com/firebasejs/9.2.0/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/9.2.0/firebase-messaging-compat.js');
 
-// TODO: Replace with your Firebase config (same values as config.ts)
 firebase.initializeApp({
   apiKey: 'YOUR_API_KEY',
   authDomain: 'YOUR_PROJECT.firebaseapp.com',
